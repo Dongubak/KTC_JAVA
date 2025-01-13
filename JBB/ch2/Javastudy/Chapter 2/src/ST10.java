@@ -1,8 +1,8 @@
 public class ST10 {
-    static final int MAX = 100;
-    static final int MIN = 2;
-
     public static void main(String[] args) {
+        final int MAX = 100;
+        final int MIN = 2;
+
         int m, n;
         boolean isPrime;
         for(m = MIN; m <= MAX; m++) {
