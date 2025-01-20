@@ -1,4 +1,4 @@
-class Vehicle {
+class Vehicl {
     int passengers; // 승객 수
     int fuelcap;    // 연료 용량 (갤런 단위)
     int mpg;        // 연료 소비량 (마일/갤런)
