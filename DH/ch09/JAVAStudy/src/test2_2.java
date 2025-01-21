@@ -1,7 +1,7 @@
 class test2_2 {
-    public static char prompt(String str) throws java.io.IOException {
+    public static char prompt(String str) {
         System.out.print(str + ": ");
-        return (char) System.in.read();  // 사용자 입력을 받으려면 예외가 발생할 수 있음
+         // 사용자 입력을 받으려면 예외가 발생할 수 있음
     }
 
     public static void main(String args[]) {

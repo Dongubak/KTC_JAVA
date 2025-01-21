@@ -7,7 +7,7 @@ class test2_1 {
         }
     }
 
-    public static void divide(int a, int b) throws ArithmeticException{
+    public static void divide(int a, int b){
         System.out.println(a / b);
     }
 }
