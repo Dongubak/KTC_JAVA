@@ -14,8 +14,7 @@ public class Sample4 {
          }
       }
 
-      System.out.println(Transport.A.ordinal());
-      System.out.println(Transport.B.ordinal());
-      System.out.println(Transport.C.ordinal());
+      Transport tp = Transport.A;
+      System.out.println(tp);
    }
 }
