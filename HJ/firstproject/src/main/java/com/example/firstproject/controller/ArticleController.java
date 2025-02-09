@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.firstproject.dto.ArticleForm;
 import com.example.firstproject.entity.Article;
 
+
+import java.util.ArrayList;
+
 @Slf4j
 @Controller
 public class ArticleController {
@@ -44,5 +47,13 @@ public class ArticleController {
       model.addAttribute("article", articleEntity);
 
       return "articles/show";
+   }
+
+   @GetMapping("articles")
+   public String index(Model model) {
+      ArrayList<Article> articleEntityList = articleRepository.findAll();
+      model.addAttribute("articleList", articleEntityList);
+
+      return "articles/index";
    }
 }

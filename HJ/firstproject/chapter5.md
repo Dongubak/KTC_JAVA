@@ -25,7 +25,7 @@ Article articleEntity = articleRepository.findById(id).orElse(null);
 ```
 
 > 매개변수에 @PathVariable annoatation을 이용하여 클라이언트가 요청한 id 파라미터 값을 얻을 수 있음
- 
+
 2. id를 이용하여 레파지토리를 통해 엔티티를 얻는다.
 ```java
 Article articleEntity = articleRepository.findById(id).orElse(null);

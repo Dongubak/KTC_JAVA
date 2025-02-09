@@ -29,3 +29,8 @@
 
 ## 4. 교재
 > Java A Beginner's Guide Sixth Edition(ORACLE)
+13.	Generics 돈희
+14.	Lambda Expressions and Method References 유빈
+
+## 4. 교재
+> Java A Beginner's Guide Sixth Edition(ORACLE)
