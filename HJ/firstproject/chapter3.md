@@ -128,6 +128,7 @@ public class ArticleForm {
 4. 입력 폼과 DTO 연결하기
    컨트롤러에서 매개변수로 ArticleForm 객체를 받음
 
+
 5. com.example.firstproject.entity에는 Article interface를 정의함
 ```java
 package com.example.firstproject.entity;
@@ -174,8 +175,9 @@ public Article toEntity() {
 
 
 7. ArticleRepository를 정의한다
-    1. ArticleRepository는 CrudRepository<T, ID>를 상속받는다.
-    2. <Article, Long>으로 지정함
+   1. ArticleRepository는 CrudRepository<T, ID>를 상속받는다.
+   2. <Article, Long>으로 지정함     
+
 ```java
 package com.example.firstproject.repository;
 
@@ -190,10 +192,12 @@ public interface ArticleRepository extends CrudRepository<Article, Long> {
 얘네가 대신 수행하는 메서드가 이미 정의되어 있다고 생각하면 됨
 
 8. DB 접속 방법
-    1. `application.properties`에서 spring.h2.console.enabled=true로 설정한다.
-    2.  localhost:8080/h2-console 에 접속하여 connect를 수행한다.
-    3. Run시 출력결과에서 jdbc:h2:mem 이 포함된 주소를 복사하여 JDBC URL에 붙여넣기 한다.
-    4. connect 하여 데이터베이스에 접근한다.
+
+   1. `application.properties`에서 spring.h2.console.enabled=true로 설정한다.
+   2.  localhost:8080/h2-console 에 접속하여 connect를 수행한다.
+   3. Run시 출력결과에서 jdbc:h2:mem 이 포함된 주소를 복사하여 JDBC URL에 붙여넣기 한다.
+   4. connect 하여 데이터베이스에 접근한다.
+  
 9. SQL문으로 테이블에 CRUD를 해본다.
 
 
