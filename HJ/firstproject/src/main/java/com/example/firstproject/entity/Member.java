@@ -5,20 +5,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-
 @AllArgsConstructor
-@NoArgsConstructor
 @ToString
 @Entity
-public class Article {
+public class Member {
     @Id
     @GeneratedValue
     private Long id;
     @Column
-    private String title;
+    private String email;
     @Column
-    private String content;
+    private String password;
 }
