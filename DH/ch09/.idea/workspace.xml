@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a522da76-4374-4f4a-9608-a93ca6ddefa2" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01/JAVAStudy/JAVAStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/JAVAStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/Q13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/Q3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/Q4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/Q6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/Q7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/JAVAStudy/src/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch05/ch05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/JAVAStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/CastingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/GenQDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVAStudy/src/WildcardDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/JAVAStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/CastingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/GenQDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/JAVAStudy/src/WildcardDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/ch05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2rhw1qsScq9n2Ukf27xitB2TyUW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "study/DH",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/조돈희/Documents/GitHub/KTC_JAVA/DH",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbsShape.executor": "Run",
+    "애플리케이션.ExcDemo3.executor": "Run",
+    "애플리케이션.GenQDemo.executor": "Run",
+    "애플리케이션.IQDemo.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.Main3.executor": "Run",
+    "애플리케이션.UseThreadsImproved.executor": "Run",
+    "애플리케이션.WildcardDemo.executor": "Run",
+    "애플리케이션.aa.executor": "Run",
+    "애플리케이션.test.executor": "Run",
+    "애플리케이션.test2.executor": "Run",
+    "애플리케이션.test2_1.executor": "Run",
+    "애플리케이션.test2_2.executor": "Run",
+    "애플리케이션.test3.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="애플리케이션.Main2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ch05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="ch05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
+      <module name="ch05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseThreadsImproved" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseThreadsImproved" />
+      <module name="ch05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildcardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WildcardDemo" />
+      <module name="ch05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ch09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ch09" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Main2" />
+        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="애플리케이션.WildcardDemo" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.UseThreadsImproved" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a522da76-4374-4f4a-9608-a93ca6ddefa2" name="변경" comment="" />
+      <created>1737024402978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737024402978</updated>
+      <workItem from="1737024404039" duration="10106000" />
+      <workItem from="1737373395737" duration="4665000" />
+      <workItem from="1737624422911" duration="14110000" />
+      <workItem from="1739180084270" duration="637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
