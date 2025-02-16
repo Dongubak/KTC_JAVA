@@ -13,7 +13,7 @@ class PrintWriterDemoWriteFile {
 
 
 
-//자바는 알아서 관리하지만 c++은 close가 명시적임. 자바는 객체직렬화가 지원됨.
+//. 자바는 객체직렬화가 지원됨.
 //BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
 //String line;
 //while ((line = reader.readLine()) != null) {
