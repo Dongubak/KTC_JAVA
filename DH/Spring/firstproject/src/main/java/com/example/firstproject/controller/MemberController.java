@@ -1,5 +1,6 @@
 package com.example.firstproject.controller;
 
+import com.example.firstproject.dto.MemberForm;
 import com.example.firstproject.entity.MemberArticle;
 import com.example.firstproject.repository.MemberRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -36,9 +37,9 @@ public class MemberController {
         MemberArticle saved = memberRepository.save(memberArticle);
         log.info(saved.toString());
         //System.out.println(saved.toString());
-        return "";
-    }
+        return "redirect:/members/" + saved.getId();
 
+    }
     @GetMapping("/members/{id}")
     public String show(@PathVariable Long id, Model model){
         log.info("id = " + id);
@@ -60,5 +61,31 @@ public class MemberController {
         model.addAttribute("memberList", memberEntityList);
         //설정하고
         return "members/index";
+    }
+
+
+    @GetMapping("/members/{id}/edit")
+    public String edit(@PathVariable Long id, Model model){
+        //데이터 가져오고
+        MemberArticle memberEntity = memberRepository.findById(id).orElse(null);
+        //데이터 등록하고
+        model.addAttribute("memberArticle", memberEntity);
+        return "members/edit";
+    }
+
+    @PostMapping("/members/update")
+    public String update(MemberForm form, Model model){
+        log.info(form.toString());
+
+        MemberArticle memberEntity = form.toEntity();
+        log.info(memberEntity.toString());
+
+        MemberArticle target = memberRepository.findById(memberEntity.getId()).orElse(null);
+
+        if(target != null){
+            memberRepository.save(memberEntity);
+        }
+        //뷰 페이지 반환하고
+        return "redirect:/members/" + memberEntity.getId();
     }
 }
