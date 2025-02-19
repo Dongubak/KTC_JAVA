@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.example.firstproject.dto.ArticleForm;
 import com.example.firstproject.entity.Article;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
 import java.util.ArrayList;
@@ -37,7 +38,7 @@ public class ArticleController {
       /// repository를 이용해 db에 저장¡한 뒤 saved객체 반환함
       System.out.println(saved.toString());
 
-      return "";
+      return "redirect:/articles/" + saved.getId();
    }
 
    @GetMapping("articles/{id}")
@@ -56,4 +57,42 @@ public class ArticleController {
 
       return "articles/index";
    }
+
+   @GetMapping("/articles/{id}/edit")
+   public String edit(@PathVariable Long id, Model model) {
+      Article articleEntity = articleRepository.findById(id).orElse(null);
+      model.addAttribute("article", articleEntity);
+      return "articles/edit";
+   }
+
+   @PostMapping("articles/update")
+   public String update(ArticleForm form, Model model) {
+      log.info("form : " + form.toString());
+
+      Article articleEntity = form.toEntity();
+      log.info("articleEntity : " + articleEntity.toString());
+
+      Article target = articleRepository.findById(articleEntity.getId()).orElse(null);
+
+      if(target != null) {
+         articleRepository.save(articleEntity);
+      }
+      return "redirect:/articles/" + articleEntity.getId();
+   }
+
+   @GetMapping("articles/{id}/delete")
+   public String delete(@PathVariable Long id, RedirectAttributes rttr) {
+      log.info("삭제 요청이 들어왔습니다!!");
+
+      Article target = articleRepository.findById(id).orElse(null);
+      log.info(target.toString());
+
+      if(target != null) {
+         articleRepository.delete(target);
+         rttr.addFlashAttribute("msg", "삭제되었습니다!");
+      }
+
+      return "redirect:/articles";
+   }
+
 }
