@@ -6,30 +6,28 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 @Entity
+@ToString
 @Getter
-public class Article {
+public class Coffee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
     @Column
-    private String title;
+    private String name;
     @Column
-    private String content;
+    private String price;
 
-    public void patch(Article article) {
-        if(article.title != null) {
-            this.title = article.title;
+    ///  patch구현 필요
+    public void patch(Coffee coffee) {
+        if(coffee.name != null) {
+            this.name = coffee.name;
         }
-        if(article.content != null) {
-            this.content = article.content;
+
+        if(coffee.price != null) {
+            this.price = coffee.price;
         }
     }
-//    Long getId() {
-//        return id;
-//    }
 }
