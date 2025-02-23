@@ -1,10 +1,10 @@
-package com.example.firstp;
+package anthill.Anthill;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FirstpApplicationTests {
+class AnthillApplicationTests {
 
 	@Test
 	void contextLoads() {
